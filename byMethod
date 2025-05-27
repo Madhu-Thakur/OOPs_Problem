@@ -1,0 +1,16 @@
+ class Animal{
+     String color;
+     int age;
+     void initObj(String c , int a){
+         color = c;
+         age = a;
+     }
+     void display(){
+         System.out.println(color + "," + age + "month");
+     }
+     public static void main(String[] args){
+         Animal trophy =  new Animal();
+         trophy.initObj("black",4);
+         trophy.display();
+     }
+ }
