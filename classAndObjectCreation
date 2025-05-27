@@ -1,0 +1,23 @@
+class Animal{
+    public void eat(){
+        System.out.println("i am eating");
+    }
+
+    public static void main(String[] args){
+        Animal trophy = new Animal();
+         Birds sparrow = new Birds();
+        sparrow.fly();
+        trophy.eat();
+        trophy.run();
+    }
+    
+    public void run(){
+         System.out.println("i am running");
+    }
+}
+
+class Birds{
+       public void fly(){
+             System.out.println("i am flying");
+        }
+    }
