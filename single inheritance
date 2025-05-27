@@ -1,0 +1,20 @@
+class A {
+    void showA() {
+        System.out.println("A class Method");
+    }
+}
+
+class B extends A {
+    void showB() {
+        System.out.println("B class Method");
+    }
+
+    public static void main(String[] args) {
+        A object1 = new A();
+        object1.showA();
+
+        B object2 = new B();
+        object2.showA(); // inherited from A
+        object2.showB();
+    }
+}
